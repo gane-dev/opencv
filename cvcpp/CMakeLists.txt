@@ -4,4 +4,4 @@ project (CVCPP)
 
 find_package( OpenCV REQUIRED )
 add_executable( DisplayImage opensample.cpp )
-target_link_libraries( DisplayImage ${Ocd penCV_LIBS} )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
